@@ -1,0 +1,197 @@
+﻿* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+body {
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login_Container {
+    max-width: 350px;
+    width: 50%;
+    background: #fff;
+    padding: 40px;
+}
+
+    .Login_Container form {
+        height: 100%;
+        width: 100%;
+        background: #fff;
+    }
+
+form .Contents .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    left: 25%;
+}
+
+form .Contents .title1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    left: 5%;
+}
+
+form .Contents .title:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 32px;
+    background: #7d2ae8;
+    left: 0;
+    bottom: 0;
+}
+
+form .Contents .title1:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 32px;
+    background: #7d2ae8;
+    left: 0;
+    bottom: 0;
+}
+
+form .Contents .Input_Boxes {
+    margin-top: 30px;
+}
+
+form .Contents .Box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+    form .Contents .Box input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 0 30px;
+        font-size: 16px;
+        font-weight: 500;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    }
+
+/*----------textBox-------------*/
+.MyTextbox {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+    .MyTextbox:valid {
+        border-color: #7d2ae8;
+    }
+
+.Contents .Box input:focus {
+    border-color: #7d2ae8;
+}
+
+.Contents .Box input:valid {
+    border-color: #7d2ae8;
+}
+
+.Contents .Box img {
+    position: absolute;
+}
+
+form .Contents .SubmitD {
+    color: black;
+    background-color: antiquewhite;
+}
+
+/*------------Forgotpassword-------------*/
+.Forgetpass > p {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+    .Forgetpass > p:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+/*----------button-------------*/
+.Buttun {
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+    .Buttun:hover {
+        background-color: #ff7bbf;
+        color: #7d2ae8;
+    }
+
+.Contents .Box input:valid {
+    border-color: orangered;
+}
+
+form .Contents label {
+    color: #7d2ae8;
+    cursor: pointer;
+}
+
+    form .Contents label:hover {
+        text-decoration: underline;
+    }
+
+/*----------social-media-------------*/
+
+form .Contents .social {
+    position: relative;
+    margin-left: 18%;
+}
+
+.social img {
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+    .social img:hover {
+        background: #fd3300;
+        transition: all 0.2s ease-in-out;
+    }
+/*----------create-password-------------*/
+.CreateAcc a {
+    text-decoration: none;
+}
+
+    .CreateAcc a:hover {
+        color: orangered;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+/*----------Copy-Wrt-------------*/
+form .Contents .CopyR > p {
+    text-align: center;
+    color: orangered;
+}
+
+/*----------Copy-Wrt-------------*/
+form .Contents .Divide > p {
+    text-align: center;
+}

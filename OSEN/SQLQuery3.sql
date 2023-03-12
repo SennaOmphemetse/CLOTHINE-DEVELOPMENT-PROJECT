@@ -1,0 +1,1 @@
+﻿DELETE FROM Customers where Cust_Name = 'job' or Cust_Name = 'adam'

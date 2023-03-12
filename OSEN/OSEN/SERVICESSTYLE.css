@@ -1,0 +1,177 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f0f0f0;
+    position: relative;
+    overflow: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.container {
+    top: 84px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: antiquewhite;
+}
+
+.card {
+    position: relative;
+    margin: 20px;
+    height: 370px;
+    width: 300px;
+    transition: 0.3s ease-out;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.7);
+    background-color: #f0f0f0;
+}
+
+.card .imagebox {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card .imagebox image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: 0.5s;
+    height: 28px;
+    width: 21px;
+}
+
+.card .content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    padding: 12px;
+    background: #ff0066;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.content h2 {
+    font-weight: 900;
+    text-align: left;
+}
+
+
+
+/*------------PreviousLink-------------*/
+.prev {
+    text-decoration: none;
+}
+
+    .prev > p {
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        color: mediumpurple;
+        text-decoration: none;
+    }
+
+        .prev > p:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+
+.Contents .Intro {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    left: 25%;
+    display: inline-block;
+}
+
+.Intro {
+    margin-top: 20px;
+}
+
+.Previous {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 100px;
+}
+
+
+
+.ButtonClass {
+    font-weight: 900;
+    background-color: #f3effe;
+    color: black;
+    border-color: black;
+    Height: 40px;
+    Width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.7);
+    margin-left: 50px;
+}
+
+    .ButtonClass:hover {
+        color: orangered;
+        border-color: orangered;
+    }
+
+.headin {
+    text-align: center;
+    color: purple;
+    font-weight: 900;
+}
+
+.small {
+    margin-left: 95px;
+    font-weight: 900;
+}
+
+.hr {
+    margin: 0 50px 0 20px;
+    color: purple;
+}
+
+.Prices {
+    position: absolute;
+    justify-content: space-between;
+    left: 12px;
+}
+
+.drop {
+    margin-left: 89px;
+    background-color: #ff0066;
+    color: black;
+    border: none;
+    outline: none;
+    height: 20px;
+    border: double;
+    border-color: black;
+}
+
+.drop:hover {
+    background-color: lightpink;
+}
